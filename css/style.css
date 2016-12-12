@@ -1,0 +1,28 @@
+div {
+  background-color: #D94A38;
+  color: #fff;
+  width: 120px;
+  height: 20px;
+  padding: 40px;
+  cursor: pointer;
+}
+p {
+  cursor: pointer;
+}
+#again {
+  color: darkgreen;
+}
+#btn {
+  background-color: green;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

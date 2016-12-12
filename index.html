@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Events with JavaScript</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<button onclick="myFunction()">Click Me</button>
+
+	<p id="text"></p>
+
+	<button onclick="showMyName('Pavel','Hristov')">Show Person Full Name</button>
+
+	<br><br>
+
+	<div onmouseover="mOver(this)" onmouseout="mOut(this)">Mouse Over Me</div>
+
+	<p ondblclick="dblclick()"><strong>Doubleclick this paragraph to start the function.</strong></p>
+
+	<p id="again"></p>
+
+	<p contenteditable="true" oncut="remove()">Try to cut this text</p>
+
+	<div id="btn">Click This Event</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
